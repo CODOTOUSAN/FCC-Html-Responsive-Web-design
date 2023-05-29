@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CatPhotoApp</title>
   </head>
   <body>
-    <html>
+    <html lang="en">
       <body>
         <main>
           <h1>CatPhotoApp</h1>
@@ -76,14 +76,16 @@
                     type="radio"
                     name="indoor-outdoor"
                     value="outdoor"
-                  />
+                  checked />
                   Outdoor</label
                 >
               </fieldset>
               <fieldset>
                 <legend>What's your cat's personality?</legend>
-                <input id="loving" type="checkbox" />
+                <input id="loving" type="checkbox" name="personality"  value="loving" checked>/>
                 <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality" value="lazy"><label for="lazy">lazy</label>
+                <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
               </fieldset>
               <input
                 type="text"
@@ -95,6 +97,7 @@
             </form>
           </section>
         </main>
+        <footer><p>No Copyright - <a href='https://www.freecodecamp.org'>freeCodeCamp.org</a></p> </footer>
       </body>
     </html>
   </body>
